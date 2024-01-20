@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,223,148,1) 91%);
+}
+.img{
+    margin: 0;
+    padding: 0;
+
+}
+.image img{
+    display: flex;
+    width: 220px;
+    height: 200px;
+   
+    position: relative;
+    padding-left: 100px;
+    padding-top:100px ;
+    
+
+   
+}
+.one img{
+    display: flex;
+    width: 220px;
+    height: 200px;
+   
+    position: relative;
+    padding-left: 100px;
+    padding-top:10px ;
+   
+}
+.two img{
+    position: absolute;
+     display: inline-block ;
+     width: 220px;
+     height: 410px;
+     top: 0px;
+     padding-left: 340px;
+     padding-top:100px ;
+}  
+.para{
+    display: inline-block;
+    border: none;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    margin: 30px;
+    
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,161,1) 0%, rgba(252,176,69,1) 100%);
+    top: 160px;
+    margin-left: 600px;
+    
+}
+.para h3{
+   
+    padding: 10px;
+    margin: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:normal;
+
+}
+.para h1{
+    padding: 10px;
+    margin: 20px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size:40px;
+    letter-spacing: 3px;
+}
+.para button{
+    border: none;
+    background: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    position: relative;
+    bottom: 30px;
+    
+
+}
+
